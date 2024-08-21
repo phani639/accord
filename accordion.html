@@ -1,0 +1,60 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acoordion</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</head>
+<body class="container-fluid">
+    <div class="accordion" id="g">
+        <div class="item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+            What is HTML?
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#g">
+            <div class="accordion-body">
+              <p>HTML is the standard markup language for creating Web pages.</p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" >
+             What is CSS?
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#g">
+            <div class="accordion-body">
+             CSS is the cascading stylesheet. It is used for designing purpose.
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree">
+           what is javascript?
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#g">
+            <div class="accordion-body">
+                JavaScript (JS) is a cross-platform, object-oriented programming language used by developers to make web pages interactive.
+          </div>
+        </div>
+      </div>   
+      <div class="item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour">
+        What is MONGODB?
+          </button>
+        </h2>
+        <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#g">
+          <div class="accordion-body">
+            MongoDB is a popular, open-source NoSQL database designed to handle large volumes of data with flexibility and scalability.
+        </div>
+      </div>
+</body>
+</html>
